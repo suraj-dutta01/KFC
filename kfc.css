@@ -1,0 +1,201 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    ;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 105px;
+    background-color: white;
+    position: fixed;
+    width: 1321px;
+    z-index: 5;
+}
+
+.navleft,
+.nevright {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+
+}
+
+.nevright img {
+    height: 47px;
+}
+
+#im1 {
+    height: 23px;
+}
+
+.x1 {
+    margin-left: 40px;
+}
+
+.x2 {
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.topbar {
+    background-color: #202124;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 15px 0px;
+    position: relative;
+    top: 87px;
+}
+
+.topbar h1 {
+    font-size: 15px;
+    padding-right: 14px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    ;
+}
+
+.topbar button {
+    padding: 13px 38px;
+    border-radius: 22px;
+    border: none;
+    background-color: rgb(219, 1, 1);
+    color: white;
+
+}
+.topbar button:hover{
+    background-color: rgb(168, 5, 5);
+}
+
+.menu {
+    margin-top: 87px;
+    border:none;
+    height: 500px;
+    width: 240px;
+    margin-left: 210px;
+    line-height: 43px;
+    position: sticky;
+    top: 86px;
+    background-color: white;
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+.img1 img {
+    height: 30px;
+}
+.hero{
+    margin-left: 500px;
+   
+   margin-top: -420px;
+   margin-right: 130px;
+    
+}
+.search{
+    border-bottom: 2px solid black;
+    padding-bottom: 12px;
+    width: 860px;
+    margin-top: -190px;
+}
+.search input{
+    padding: 8px 22px;
+    border-radius: 20px;
+    border: .6px solid rgb(156, 156, 156);
+    font-weight: bold;
+
+}
+.items{
+    border-radius: 10px;
+    background-color: rgb(241, 240, 237);
+    margin-top: 56px;
+    padding-top: 37px;
+    margin-bottom: 40px;
+}
+.items h1{
+    margin-left: 27px;
+    margin-bottom: 50px;
+    font-size: 26px;
+}
+.item1{
+    display: flex;
+    justify-content: space-around;
+    line-height: 30px;
+}
+.buckets img{
+    height: 310px;
+    border-radius: 9px;
+}
+.items button{
+    color: white;
+    padding: 12px 46px;
+    background-color: rgb(219, 1, 1);
+    border-radius: 22px;
+    border: none;
+    margin-left: 40px;
+    margin-top: 50px;
+    margin-bottom: 45px;
+    font-size: 15px;
+}
+.items button:hover{
+    background-color: rgb(236, 33, 33);
+}
+.p1{
+    font-size: 14px;
+    line-height: 20px;
+}
+.list li:hover{
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+.trend{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.trends1 img{
+    height: 210px;
+    border-radius: 10px;
+}
+
+.trends1{
+    border:none;
+    height: 485px;
+    margin-left: 4px;
+    margin-right: 14px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 9px gray;
+    
+   
+}
+.disp1{
+    line-height: 38px;
+    padding-left: 18px;
+    padding-right: 20px;
+   margin-bottom: 56px;
+}
+.trends1 button{
+color: white;
+    padding: 12px 46px;
+    background-color: rgb(219, 1, 1);
+    border-radius: 22px;
+    border: none;
+    margin-left: 40px;
+    margin-bottom: 45px;
+    font-size: 15px;
+}
+.trends1 button:hover{
+    background-color: rgb(236, 33, 33);
+}
+.trending h1{
+    margin-left: 4px;
+    font-size: 26.4px;
+    margin-bottom: 60px;
+}
